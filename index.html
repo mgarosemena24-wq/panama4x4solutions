@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panama 4x4 Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar__logo">
+      <span class="logo-icon">&#9651;</span>
+      <span class="logo-text">PANAMA <strong>4x4</strong> SOLUTIONS</span>
+    </div>
+    <nav class="navbar__links">
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="navbar__toggle" id="menuToggle" aria-label="Abrir menú">&#9776;</button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#servicios" onclick="closeMenu()">Servicios</a>
+    <a href="#nosotros" onclick="closeMenu()">Nosotros</a>
+    <a href="#galeria" onclick="closeMenu()">Galería</a>
+    <a href="#contacto" onclick="closeMenu()">Contacto</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tag">Taller Especializado · Panamá</p>
+      <h1 class="hero__title">PANAMA<br /><span>4x4 SOLUTIONS</span></h1>
+      <p class="hero__subtitle">Expertos en vehículos 4x4, offroad y overlanding.<br />Mecánica de confianza en el corazón de Panamá.</p>
+      <a href="#servicios" class="btn btn--primary">Ver Servicios</a>
+      <a href="#contacto" class="btn btn--outline">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Lo que hacemos</span>
+        <h2 class="section__title">Nuestros Servicios</h2>
+        <p class="section__desc">Especialistas en la mecánica que tu 4x4 necesita, desde mantenimiento de rutina hasta preparaciones extremas para el terreno.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">&#9881;</div>
+          <h3>Mantenimiento General</h3>
+          <p>Cambio de aceite, filtros, revisión de frenos, suspensión y sistema de dirección. Mantenemos tu vehículo en óptimas condiciones.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">&#128663;</div>
+          <h3>Mecánica 4x4 Especializada</h3>
+          <p>Diagnóstico y reparación de sistemas de tracción en las cuatro ruedas, cajas de transferencia, diferenciales y ejes.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">&#128268;</div>
+          <h3>Suspensión & Lift Kits</h3>
+          <p>Instalación de lift kits, amortiguadores de alto rendimiento y componentes de suspensión para mejorar la capacidad off-road.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">&#128295;</div>
+          <h3>Preparación Overlanding</h3>
+          <p>Configuramos tu vehículo para aventuras de larga distancia: portaequipajes, winches, protecciones inferiores, luces LED y más.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">&#9889;</div>
+          <h3>Diagnóstico Electrónico</h3>
+          <p>Lectura y borrado de códigos de falla, diagnóstico de sistemas eléctricos y electrónicos con equipos de última generación.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">&#128101;</div>
+          <h3>Asesoría Personalizada</h3>
+          <p>Te orientamos para elegir los mejores accesorios y modificaciones según tu estilo de manejo y presupuesto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section section--dark" id="nosotros">
+    <div class="container about__container">
+      <div class="about__image-wrap">
+        <div class="about__image-placeholder">
+          <span class="about__image-icon">&#128100;</span>
+          <p>Foto del dueño</p>
+        </div>
+      </div>
+      <div class="about__content">
+        <span class="section__tag">Quién está detrás del taller</span>
+        <h2 class="section__title">Pasión por el 4x4<br />y la aventura</h2>
+        <p>Soy Manny, fundador de Panama 4x4 Solutions. Desde pequeño los motores fueron mi mundo: crecí entre herramientas, barro y terracería, aprendiendo que un vehículo bien preparado abre puertas a lugares que pocos se atreven a explorar.</p>
+        <p>Con más de <strong>15 años de experiencia</strong> en mecánica automotriz, me especialicé en vehículos 4x4 porque son los que más me apasionan. He recorrido las rutas más desafiantes de Panamá, Darién, Bocas del Toro y más allá, convirtiendo cada aventura en conocimiento aplicado en el taller.</p>
+        <p>El <strong>overlanding</strong> no es solo un hobbie para mí — es un estilo de vida. Entiendo lo que necesita un vehículo para rendir en condiciones extremas porque yo mismo lo he vivido. Esa experiencia real es lo que llevo a cada trabajo que hago.</p>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number">15+</span>
+            <span class="stat__label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">500+</span>
+            <span class="stat__label">Vehículos atendidos</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">100%</span>
+            <span class="stat__label">Compromiso con el cliente</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Nuestro trabajo</span>
+        <h2 class="section__title">Galería</h2>
+        <p class="section__desc">Un vistazo a algunos de los proyectos y trabajos realizados en el taller.</p>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--tall">
+          <div class="gallery__placeholder">
+            <span>&#128247;</span>
+            <p>Preparación offroad</p>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__placeholder">
+            <span>&#128247;</span>
+            <p>Lift kit instalado</p>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__placeholder">
+            <span>&#128247;</span>
+            <p>Vista del taller</p>
+          </div>
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <div class="gallery__placeholder">
+            <span>&#128247;</span>
+            <p>Aventura en Darién</p>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__placeholder">
+            <span>&#128247;</span>
+            <p>Winch instalado</p>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <div class="gallery__placeholder">
+            <span>&#128247;</span>
+            <p>Suspensión custom</p>
+          </div>
+        </div>
+      </div>
+      <p class="gallery__note">¿Tienes fotos de tu vehículo trabajado con nosotros? <a href="#contacto">¡Compártelas!</a></p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section--accent" id="contacto">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Estamos para ayudarte</span>
+        <h2 class="section__title">Contáctanos</h2>
+        <p class="section__desc">Escríbenos o visítanos. Estamos listos para atenderte y darle a tu vehículo el cuidado que merece.</p>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="contact__item">
+            <div class="contact__icon">&#128205;</div>
+            <div>
+              <h4>Ubicación</h4>
+              <p>Panamá, República de Panamá<br /><em>(dirección exacta por confirmar)</em></p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__icon">&#128222;</div>
+            <div>
+              <h4>Teléfono / WhatsApp</h4>
+              <p><a href="https://wa.me/50700000000" target="_blank">+507 000-0000</a></p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__icon">&#9993;</div>
+            <div>
+              <h4>Correo Electrónico</h4>
+              <p><a href="mailto:info@panama4x4solutions.com">info@panama4x4solutions.com</a></p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__icon">&#128337;</div>
+            <div>
+              <h4>Horario</h4>
+              <p>Lunes a Viernes: 8:00 am – 6:00 pm<br />Sábados: 8:00 am – 2:00 pm</p>
+            </div>
+          </div>
+          <div class="contact__social">
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </a>
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </a>
+          </div>
+        </div>
+        <form class="contact__form" onsubmit="handleSubmit(event)">
+          <h3>Envíanos un mensaje</h3>
+          <div class="form__group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+          </div>
+          <div class="form__group">
+            <label for="telefono">Teléfono / WhatsApp</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+507 000-0000" />
+          </div>
+          <div class="form__group">
+            <label for="vehiculo">Vehículo</label>
+            <input type="text" id="vehiculo" name="vehiculo" placeholder="Ej: Toyota Land Cruiser 2018" />
+          </div>
+          <div class="form__group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Enviar Mensaje</button>
+          <div class="form__success" id="formSuccess">
+            &#10003; ¡Mensaje enviado! Nos pondremos en contacto pronto.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo-icon">&#9651;</span>
+        <span class="logo-text">PANAMA <strong>4x4</strong> SOLUTIONS</span>
+      </div>
+      <p class="footer__copy">&copy; 2025 Panama 4x4 Solutions. Todos los derechos reservados.</p>
+      <p class="footer__copy">Panamá, República de Panamá</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
